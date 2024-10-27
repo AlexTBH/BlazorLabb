@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\components\\pages\\newuser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:components\\pages\\newuser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\geo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:geo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\components\\pages\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:components\\pages\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\components\\pages\\newuser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:components\\pages\\newuser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -30,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,38 +65,103 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Company.cs",
+              "RelativeDocumentMoniker": "Company.cs",
+              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Company.cs",
+              "RelativeToolTip": "Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:41:40.946Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Geo.cs",
+              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Geo.cs",
+              "RelativeDocumentMoniker": "Geo.cs",
+              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Geo.cs",
+              "RelativeToolTip": "Geo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:38:50.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Address.cs",
+              "RelativeDocumentMoniker": "Address.cs",
+              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Address.cs",
+              "RelativeToolTip": "Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:35:16.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:28:22.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:16:50.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-27T18:47:33.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "NewUser.razor",
               "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Components\\Pages\\NewUser.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\NewUser.razor",
               "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Components\\Pages\\NewUser.razor",
               "RelativeToolTip": "Components\\Pages\\NewUser.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-27T18:47:16.763Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Error.razor",
               "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Components\\Pages\\Error.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Error.razor",
@@ -84,12 +169,11 @@
               "RelativeToolTip": "Components\\Pages\\Error.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T18:47:14.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T18:47:14.836Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
@@ -97,12 +181,11 @@
               "RelativeToolTip": "Components\\Pages\\Home.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T18:46:43.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T18:46:43.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Users.razor",
               "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Components\\Pages\\Users.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Users.razor",
