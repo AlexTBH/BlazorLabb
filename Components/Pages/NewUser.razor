@@ -1,23 +1,45 @@
 ﻿@page "/newUser"
 @attribute [StreamRendering]
+@rendermode InteractiveServer
 
 <PageTitle>New Users</PageTitle>
 <label>Fyll i informationen och klicka sedan på spara</label>
 
-<div>
-	<input type="text" placeholder="Namn" />
-</div>
-<div>
-	<input type="text" placeholder="Email" />
-</div>
-<div>
-	<input type="text" placeholder="Company" />
-</div>
-<div>
-	<button>Spara</button>
-</div>
+@if (!isSaved)
+{
+	<div>
+		<input type="text" placeholder="Namn" />
+	</div>
+	<div>
+		<input type="text" placeholder="Email" />
+	</div>
+	<div>
+		<input type="text" placeholder="Company" />
+	</div>
+
+}
+<button @onclick="Save">Spara</button>
+<tbody>
+	<tr>
+		<td>@Name</td>
+		<td>@Email</td>
+		<td>@Company</td>
+	</tr>
+</tbody>
 
 
+@code 
+{
+	private bool isSaved = false;
+	private string Name;
+	private string Email;
+	private string Company;
+
+	private void Save()
+	{
+		isSaved = true;
+	}
+}
 
 
 
