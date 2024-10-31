@@ -3,3 +3,41 @@
 
 <PageTitle>Users</PageTitle>
 
+@if (_users == null)
+{
+	<p><em>Loading...</em></p>
+}
+else
+{
+	<button @onclick="DisplaySome">Show some</button>
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Street</th>
+				<th>City</th>
+				<th>Zipcode</th>
+				<th>Company name</th>
+				<th>Company catchphrase</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var user in _users)
+			{
+				<tr>
+					<td>@user.Id</td>
+					<td>@user.Name</td>
+					<td>@user.Email</td>
+					<td>@user.Address.Street</td>
+					<td>@user.Address.City</td>
+					<td>@user.Address.Zipcode</td>
+					<td>@user.Company.Name</td>
+					<td>@user.Company.CatchPhrase</td>
+				</tr>				
+			}
+		</tbody>
+	</table>
+}

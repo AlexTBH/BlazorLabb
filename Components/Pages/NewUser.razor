@@ -3,29 +3,28 @@
 @rendermode InteractiveServer
 
 <PageTitle>New Users</PageTitle>
-<label>Fyll i informationen och klicka sedan på spara</label>
+
 
 @if (!isSaved)
 {
+	<label>Fyll i informationen och klicka sedan på spara</label>
 	<div>
-		<input type="text" placeholder="Namn" />
+		<input type="text" placeholder="Namn" @bind="Name"/>
 	</div>
 	<div>
-		<input type="text" placeholder="Email" />
+		<input type="text" placeholder="Email" @bind="Email"/>
 	</div>
 	<div>
-		<input type="text" placeholder="Company" />
+		<input type="text" placeholder="Company" @bind="Company"/>
 	</div>
-
+	<button @onclick="Save">Save</button>
+} else
+{
+	<div>Name: @Name</div>
+	<div>Email: @Email</div>
+	<div>Company: @Company</div>
+	<button @onclick="ResetValues">New user</button>
 }
-<button @onclick="Save">Spara</button>
-<tbody>
-	<tr>
-		<td>@Name</td>
-		<td>@Email</td>
-		<td>@Company</td>
-	</tr>
-</tbody>
 
 
 @code 
@@ -37,8 +36,18 @@
 
 	private void Save()
 	{
-		isSaved = true;
+		isSaved = !isSaved;
 	}
+
+	private void ResetValues()
+	{
+		isSaved = false;
+		Name = string.Empty;
+		Email = string.Empty;
+		Company = string.Empty;
+	} 
+
+	
 }
 
 
