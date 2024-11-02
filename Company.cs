@@ -1,9 +1,9 @@
 ﻿namespace BlazorLabb
 {
-    public class Company
-    {
-        public string Name { get; set; }
-        public string CatchPhrase { get; set; }
-        public string BusinessSlogan { get; set; }
-    }
+	public class Company
+	{
+		public string Name { get; set; }
+		public string CatchPhrase { get; set; }
+		public string BusinessSlogan { get; set; }
+	}
 }

@@ -17,7 +17,17 @@ namespace BlazorLabb.Components.Pages
 
 		private void DisplaySome()
 		{
-			_users = DataAcess.Users.GetFilteredUsers(0, 10);
+			_users = DataAcess.Users.GetFilteredUsers(0, 5);
+		}
+
+		private void SortById()
+		{
+			_users = DataAcess.Users.SortByID();
+		}
+
+		private void SortByName()
+		{
+			_users = DataAcess.Users.SortByName();
 		}
 	}
 }

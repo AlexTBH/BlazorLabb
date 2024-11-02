@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace BlazorLabb
+﻿namespace BlazorLabb
 {
 	public static class UserDataExtension
 	{
@@ -24,6 +22,16 @@ namespace BlazorLabb
 			{
 				return list.Skip(startIndex).Take(count).ToList();
 			}
+		}
+
+		public static List<User> SortByID(this IEnumerable<User> list)
+		{
+			return list.OrderBy(x => x.Id).ToList();
+		}
+
+		public static List<User> SortByName(this IEnumerable<User> list)
+		{
+			return list.OrderBy(x => x.Name).ToList();
 		}
 	}
 }

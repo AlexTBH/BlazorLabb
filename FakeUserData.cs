@@ -1,11 +1,9 @@
-﻿using System.Runtime.CompilerServices;
-
-namespace BlazorLabb
+﻿namespace BlazorLabb
 {
 	public class FakeUserData : IUserDataAccess
 	{
 		private List<User>? _users;
-	
+
 		public List<User> Users
 		{
 			get
