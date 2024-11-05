@@ -6,38 +6,36 @@ namespace BlazorLabb.Components.Pages
 		private List<User>? _users;
 
 
-		private FakeUserData _fakeUserData = new FakeUserData();
-		private JsonUserData _jsonUserData = new JsonUserData();
 		
-		private IUserDataAccess _dataAccess { get; set; }
+		public IUserDataAccess DataAccess { get; set; }
 
 		protected override async Task OnInitializedAsync()
 		{
 			await Task.Delay(500);
-			_dataAccess = _fakeUserData;
+			DataAccess = new FakeUserData();
 			DisplaySome();
 		}
 
-		private async void SwitchToJsonUsers()
+		private async Task SwitchToJsonUsers()
 		{
-			_dataAccess = _jsonUserData;
-			await _jsonUserData.LoadUsersFromJson();
-			DisplaySome();
+			_users = null;
+			DataAccess = new JsonUserData();
+			await Task.Run(() => DisplaySome());
 		}
 
 		private void DisplaySome()
 		{
-			_users = _dataAccess.Users.GetFilteredUsers(0, 5);
+			_users = DataAccess.Users.GetFilteredUsers(0, 10);
 		}
 
 		private void SortById()
 		{
-			_users = _dataAccess.Users.SortByID();
+			_users = DataAccess.Users.SortByID();
 		}
 
 		private void SortByName()
 		{
-			_users = _dataAccess.Users.SortByName();
+			_users = DataAccess.Users.SortByName();
 		}
 
 

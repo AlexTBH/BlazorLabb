@@ -7,6 +7,10 @@
 		{
 			get
 			{
+				if (_users == null)
+				{
+					LoadUsersFromJson().Wait();
+				}
 				return _users;
 			}
 
@@ -17,7 +21,7 @@
 		public async Task<List<User>> LoadUsersFromJson()
 		{
 
-			if (_users == null || _users.Count == 0)
+			if (_users == null)
 			{
 				_users = await GetUsersFromJson(jsonUrl);
 			}
