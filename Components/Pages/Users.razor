@@ -9,11 +9,33 @@
 }
 else
 {
-	<button @onclick="SwitchToJsonUsers">Use data access from JSON</button>
-	<button @onclick="DisplaySome">Show some</button>
-	<button @onclick="SortById">Sort by ID</button>
-	<button @onclick="SortByName">Sort by Name</button>
+	<div class="button-container">
+		@if (_displayJsonUsers)
+		{
+			<button @onclick="SwitchUserSource" class="small-button">Switch to fake users</button>
+		}
+		else
+		{
+			<button @onclick="SwitchUserSource" class="small-button">Switch to JSON users</button>
+		}
+		<button @onclick="ShowAll" class="small-button">Show all</button>
+		<button @onclick="SortById" class="small-button">Sort by ID</button>
+		<button @onclick="SortByName" class="small-button">Sort by Name</button>
 
+		@if (_displayJsonUsers)
+		{
+			<label class="current-data">Now shoing Json users</label>
+		} else
+		{
+			<label class="current-data">Now showing fake users</label>
+		}
+
+		<div class="search-container">
+			<input @bind="_searchInput" />
+			<button @onclick="SearchString" class="search-button">Search</button>
+		</div>
+	</div>
+	
 	<table class="table">
 		<thead>
 			<tr>
@@ -44,3 +66,42 @@ else
 		</tbody>
 	</table>
 }
+
+<style>
+
+.search-container {
+	display: flex;
+	justify-content: flex-end; 
+	gap: 0px; 
+	width: 100%; 
+}
+
+.button-container {
+	display: flex;
+	justify-content: space-between; 
+	width: 100%;
+	align-items: center;
+	column-gap: 10px;
+	
+}
+
+.current-data {
+	
+	margin-left: 30px; 
+	margin-right: 30px; 
+	font-size: 16px; 
+	font-style: italic;
+	font-weight: bold;
+	
+	
+}
+
+.small-button {
+	height: 50px; 
+	font-size: 15px; 
+	margin: 5px 0;
+
+}
+
+
+</style>

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\userdataextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:userdataextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\components\\pages\\newuser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:components\\pages\\newuser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\jsonuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:jsonuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\dataaccessfolder\\jsonuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:dataaccessfolder\\jsonuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\components\\pages\\users.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +19,28 @@
       "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:components\\pages\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\iuserdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:iuserdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\dataaccessfolder\\iuserdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:dataaccessfolder\\iuserdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\fakeuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:fakeuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\dataaccessfolder\\fakeuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:dataaccessfolder\\fakeuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\geo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:geo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\dataaccessfolder\\userdataextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:dataaccessfolder\\userdataextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\userclasses\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:userclasses\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\userclasses\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:userclasses\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|c:\\users\\alexander\\source\\repos\\blazorlabb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECBB3A0D-D891-4403-9383-87FB0E2A55E1}|BlazorLabb.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 180,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -56,24 +68,24 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "IUserDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\IUserDataAccess.cs",
-              "RelativeDocumentMoniker": "IUserDataAccess.cs",
-              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\IUserDataAccess.cs",
-              "RelativeToolTip": "IUserDataAccess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\DataAccessFolder\\IUserDataAccess.cs",
+              "RelativeDocumentMoniker": "DataAccessFolder\\IUserDataAccess.cs",
+              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\DataAccessFolder\\IUserDataAccess.cs",
+              "RelativeToolTip": "DataAccessFolder\\IUserDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T21:40:24.8Z",
+              "WhenOpened": "2024-11-06T22:04:34.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "UserDataExtension.cs",
-              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\UserDataExtension.cs",
-              "RelativeDocumentMoniker": "UserDataExtension.cs",
-              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\UserDataExtension.cs",
-              "RelativeToolTip": "UserDataExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\DataAccessFolder\\UserDataExtension.cs",
+              "RelativeDocumentMoniker": "DataAccessFolder\\UserDataExtension.cs",
+              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\DataAccessFolder\\UserDataExtension.cs",
+              "RelativeToolTip": "DataAccessFolder\\UserDataExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T20:34:56.462Z",
               "EditorCaption": ""
@@ -86,48 +98,62 @@
               "RelativeDocumentMoniker": "Components\\Pages\\Users.razor.cs",
               "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Components\\Pages\\Users.razor.cs",
               "RelativeToolTip": "Components\\Pages\\Users.razor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T23:35:59.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Users.razor",
-              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Components\\Pages\\Users.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Users.razor",
-              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Components\\Pages\\Users.razor",
-              "RelativeToolTip": "Components\\Pages\\Users.razor",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\UserClasses\\Company.cs",
+              "RelativeDocumentMoniker": "UserClasses\\Company.cs",
+              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\UserClasses\\Company.cs",
+              "RelativeToolTip": "UserClasses\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T19:08:25.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\UserClasses\\Address.cs",
+              "RelativeDocumentMoniker": "UserClasses\\Address.cs",
+              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\UserClasses\\Address.cs",
+              "RelativeToolTip": "UserClasses\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T19:12:32.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewUser.razor",
+              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Components\\Pages\\NewUser.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\NewUser.razor",
+              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Components\\Pages\\NewUser.razor*",
+              "RelativeToolTip": "Components\\Pages\\NewUser.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T23:35:56.638Z",
+              "WhenOpened": "2024-11-06T19:41:06.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "FakeUserData.cs",
-              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\FakeUserData.cs",
-              "RelativeDocumentMoniker": "FakeUserData.cs",
-              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\FakeUserData.cs",
-              "RelativeToolTip": "FakeUserData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\DataAccessFolder\\FakeUserData.cs",
+              "RelativeDocumentMoniker": "DataAccessFolder\\FakeUserData.cs",
+              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\DataAccessFolder\\FakeUserData.cs",
+              "RelativeToolTip": "DataAccessFolder\\FakeUserData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T21:06:58.294Z",
+              "WhenOpened": "2024-11-06T19:45:54.985Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Geo.cs",
-              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Geo.cs",
-              "RelativeDocumentMoniker": "Geo.cs",
-              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Geo.cs",
-              "RelativeToolTip": "Geo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T22:12:50.069Z"
             }
           ]
         },
@@ -139,13 +165,39 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "JsonUserData.cs",
-              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\JsonUserData.cs",
-              "RelativeDocumentMoniker": "JsonUserData.cs",
-              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\JsonUserData.cs",
-              "RelativeToolTip": "JsonUserData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\DataAccessFolder\\JsonUserData.cs",
+              "RelativeDocumentMoniker": "DataAccessFolder\\JsonUserData.cs",
+              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\DataAccessFolder\\JsonUserData.cs",
+              "RelativeToolTip": "DataAccessFolder\\JsonUserData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T22:15:47.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Users.razor",
+              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Components\\Pages\\Users.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Users.razor",
+              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Components\\Pages\\Users.razor",
+              "RelativeToolTip": "Components\\Pages\\Users.razor",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T23:35:56.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Alexander\\source\\repos\\BlazorLabb\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T19:26:22.197Z",
               "EditorCaption": ""
             }
           ]
