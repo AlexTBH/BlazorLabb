@@ -4,10 +4,9 @@ namespace BlazorLabb.DataAccessFolder
 {
     public static class UserDataExtension
     {
-
         public static List<User> GetAllUsers(this IEnumerable<User> list)
         {
-            return list.GetFilteredUsers(0, list.Count());
+            return list.ToList();
         }
         public static List<User> GetFilteredUsers(this IEnumerable<User> list, int startIndex, int count)
         {
@@ -21,14 +20,7 @@ namespace BlazorLabb.DataAccessFolder
                 throw new ArgumentOutOfRangeException(nameof(count));
             }
 
-            if (startIndex == 0)
-            {
-                return list.Take(count).ToList();
-            }
-            else
-            {
                 return list.Skip(startIndex).Take(count).ToList();
-            }
         }
 
         public static List<User> SortByID(this IEnumerable<User> list)
